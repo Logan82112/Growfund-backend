@@ -1,0 +1,2701 @@
+[
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$rbwjxkoy3kqjcQqT1wq8Xj$ew+FXpG8wK6ySD2xvBEu1NgbBjTqxgsEaMC3yA5sMZk=",
+    "last_login": "2026-02-10T22:39:11.413Z",
+    "is_superuser": true,
+    "first_name": "Admin",
+    "last_name": "User",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-10T22:25:18.939Z",
+    "email": "admin@growfund.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "-30.00",
+    "verification_token": "15a64a94-6967-41a4-846b-240e7081b30e",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "806374A1",
+    "referred_by": null,
+    "created_at": "2026-02-10T22:25:19.612Z",
+    "updated_at": "2026-05-08T16:40:28.170Z",
+    "last_login_at": "2026-05-08T17:05:54.452Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$YAihn66n9EaWYdLFnrWyeB$3znsYSsdEnT98WLAFSVJ/Q4x6IpTUue+EodAAYwkuFw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Brian",
+    "last_name": "Kimemia",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-10T22:46:03.416Z",
+    "email": "migwibrian316@gmail.com",
+    "phone": "+254 707818618",
+    "avatar": "avatars/avatar.jpg",
+    "location": "Kenya",
+    "occupation": "software Engineer",
+    "company": "Growfund investments",
+    "website": "https://growfundinvestment.com",
+    "bio": "lets code it",
+    "is_verified": true,
+    "balance": "30.00",
+    "verification_token": "e29a9317-a7e2-4d31-a567-d20b03a40430",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "58843578",
+    "referred_by": null,
+    "created_at": "2026-02-10T22:46:04.092Z",
+    "updated_at": "2026-05-08T11:18:38.476Z",
+    "last_login_at": "2026-05-08T11:53:33.315Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$RVeqvVEqYuq3G0Pgf45ucS$N6TR3sP8kFJvR6S1gV/wsOtSPeFhyCwm8rr/R0xBy3A=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "playboy",
+    "last_name": "ghana",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-02-10T23:31:02.725Z",
+    "email": "deleted_4_playboy@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "8e934712-fce1-4750-b389-03625ffa8462",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "3104D5B2",
+    "referred_by": null,
+    "created_at": "2026-02-10T23:31:03.627Z",
+    "updated_at": "2026-05-08T07:54:51.648Z",
+    "last_login_at": "2026-02-20T20:25:07.594Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$EOcgAcmtwe2Vy9BNUtomoa$YeOJjQkoGujWjn2Yq+83yHS111KMqFBL4wP+pf28s9Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "playboy",
+    "last_name": "ghana",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-02-10T23:32:07.118Z",
+    "email": "playboyghana@gmail.com",
+    "phone": "0710133969",
+    "avatar": "",
+    "location": "Ghana",
+    "occupation": "Enginer",
+    "company": "Growfund",
+    "website": "",
+    "bio": "",
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "c8e02645-3ca8-42b1-b490-79eb2bfc09ac",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "98C60B86",
+    "referred_by": null,
+    "created_at": "2026-02-10T23:32:08.021Z",
+    "updated_at": "2026-02-11T21:50:11.076Z",
+    "last_login_at": "2026-02-11T14:36:39.181Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$gXJ2AwmA1EudIPdv9wzMVo$+tmNVDrPU69sJY5klcRMXpjG2vp07CH44owD5EXX4FI=",
+    "last_login": null,
+    "is_superuser": true,
+    "first_name": "Admin",
+    "last_name": "One",
+    "is_staff": true,
+    "is_active": false,
+    "date_joined": "2026-02-11T14:58:36.606Z",
+    "email": "deleted_8_admin001@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "f2aca900-7cb3-4adc-b1b1-713ff901edc0",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "2DCA5D47",
+    "referred_by": null,
+    "created_at": "2026-02-11T14:58:37.709Z",
+    "updated_at": "2026-05-08T07:54:04.533Z",
+    "last_login_at": "2026-02-22T22:29:57.774Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$HxExrxMYpdo4nZqlL2Sobd$bWUQjhY+BDgZbjlgtbVJEBTZorTdEt9uveuk6JymkjE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "john",
+    "last_name": "kimemia",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-02-11T22:26:50.303Z",
+    "email": "deleted_9_kimemia03@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "7a1e4db3-3c55-4638-9eff-5f9c95f6c1f5",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "4701EDA3",
+    "referred_by": null,
+    "created_at": "2026-02-11T22:26:51.079Z",
+    "updated_at": "2026-05-08T07:54:00.331Z",
+    "last_login_at": "2026-02-20T22:01:10.723Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$vRgWLfBQqhL6KGdTWnPpMs$/YIiMkzgmZ9Ase49Mbayje//sgtQbbYA0ZSJdU7GWvU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "peris",
+    "last_name": "wanjiru",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-02-12T00:51:33.865Z",
+    "email": "deleted_10_peris@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "2faf6be0-8303-4e43-b16b-ffdcf20e2a81",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "0F33A5E5",
+    "referred_by": null,
+    "created_at": "2026-02-12T00:51:34.609Z",
+    "updated_at": "2026-05-08T07:53:42.402Z",
+    "last_login_at": "2026-02-20T18:26:29.537Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$yPP0vNjcGKSkbYbhpnRn50$G1NXtUgdHRz4jsHSCZv29qPBodxUG3NYkCzomrvJcBw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "makena",
+    "last_name": "mm",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-02-12T01:22:21.058Z",
+    "email": "deleted_11_makena@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "9f18b247-5795-4b20-8fad-1ebf294280b5",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "434CF083",
+    "referred_by": null,
+    "created_at": "2026-02-12T01:22:21.919Z",
+    "updated_at": "2026-05-08T07:53:49.739Z",
+    "last_login_at": "2026-02-20T22:36:07.857Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$wJoFN7luW5DY3UB9Gs7X3s$OLqNv9vZvPJMfrZd+EntvE8t7ITqq8HdP/2oCUw4eZI=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Demo",
+    "last_name": "User",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-02-19T04:29:56.735Z",
+    "email": "deleted_13_demotest@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "65acde50-e1fd-4447-8abd-50fa76a077fc",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "A71FD185",
+    "referred_by": null,
+    "created_at": "2026-02-19T04:29:57.428Z",
+    "updated_at": "2026-05-08T07:53:34.267Z",
+    "last_login_at": "2026-02-19T04:57:27.071Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$awktjzNJowjpuxFDqJzBri$PqDBh3tUqBFndXsEAhNGQQmYWQCplGYJ5l3/AnyPcuQ=",
+    "last_login": "2026-04-25T20:09:23.421Z",
+    "is_superuser": true,
+    "first_name": "Tabby",
+    "last_name": "Admin",
+    "is_staff": true,
+    "is_active": false,
+    "date_joined": "2026-04-25T19:51:20.959Z",
+    "email": "deleted_14_Tabby@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "08c1cbd8-9c85-457f-ba5a-3bf250e7f28c",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "02C0969B",
+    "referred_by": null,
+    "created_at": "2026-04-25T19:51:23.346Z",
+    "updated_at": "2026-05-08T07:53:46.102Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Test",
+    "last_name": "User",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-04-26T06:40:44.625Z",
+    "email": "deleted_15_testuser@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "44236b22-af0f-4787-bb2e-3b8e704c5e18",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "307EDC7E",
+    "referred_by": null,
+    "created_at": "2026-04-26T06:40:44.636Z",
+    "updated_at": "2026-05-08T07:53:23.471Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Test2",
+    "last_name": "User2",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-04-26T06:40:51.646Z",
+    "email": "deleted_16_testuser2@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "322bf686-9e9a-4d85-bd12-77c553d97083",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "BB87ED2B",
+    "referred_by": null,
+    "created_at": "2026-04-26T06:40:51.648Z",
+    "updated_at": "2026-05-08T07:53:20.088Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Pa6rrsMm1oA3HiTpbch0Gl$H3iNNrhHD5S9SraJMv9fFNXgumqBUsSvJ0/1OCb/ScU=",
+    "last_login": null,
+    "is_superuser": true,
+    "first_name": "Test",
+    "last_name": "Admin",
+    "is_staff": true,
+    "is_active": false,
+    "date_joined": "2026-04-26T07:07:52.895Z",
+    "email": "deleted_17_testadmin@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "5fa11194-aa80-4f77-8835-a4d4f52bc602",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "3EACE73D",
+    "referred_by": null,
+    "created_at": "2026-04-26T07:07:52.907Z",
+    "updated_at": "2026-05-08T07:53:16.690Z",
+    "last_login_at": "2026-04-26T17:59:49.215Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$w4O7zuL4YPG9nGsdNhidpF$QP99gUbRl9c84104J8cd6y7IrlfM/ZJKfZ1HLmJKRuM=",
+    "last_login": null,
+    "is_superuser": true,
+    "first_name": "Test",
+    "last_name": "Admin",
+    "is_staff": true,
+    "is_active": false,
+    "date_joined": "2026-05-08T07:02:11.320Z",
+    "email": "deleted_18_test_admin@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "b2b8d31a-33b1-4ada-a9cc-c5292c53a564",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "7777B816",
+    "referred_by": null,
+    "created_at": "2026-05-08T07:02:11.326Z",
+    "updated_at": "2026-05-08T07:53:13.799Z",
+    "last_login_at": "2026-05-08T07:21:27.225Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$91t87evfzJ1iDqQN9aIN9L$G/tknb7SQUznsTv9GTnyrUT9aMdRPTqfE/+A7EX8oT8=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "John",
+    "last_name": "Doe",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-08T07:49:32.121Z",
+    "email": "deleted_19_user1@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "987138a7-50b7-4ab4-8737-38fe348e2fc6",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "F1AE0E25",
+    "referred_by": null,
+    "created_at": "2026-05-08T07:49:32.123Z",
+    "updated_at": "2026-05-08T07:53:10.349Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ZKuVnjPCrSyPdf4sVbJk1s$RGqIq+AObqKZhY0jA762BVrd+Mh8HfttsmRp/NAR8AM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-08T07:49:34.541Z",
+    "email": "deleted_20_user2@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "cb8c9ad8-7584-4128-aac4-3f57e0e1c9de",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "F3C08723",
+    "referred_by": null,
+    "created_at": "2026-05-08T07:49:34.542Z",
+    "updated_at": "2026-05-08T07:53:07.052Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$EeUIdcbijKG0eHm91N00cu$StILrcRn7ks+whriKJQrCEYB55Ifkcw6PZNejCCrd2A=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Bob",
+    "last_name": "Johnson",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-08T07:49:36.678Z",
+    "email": "deleted_21_user3@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "84b48237-8bc8-46e8-b766-e4f4d49a9dcc",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "9307A704",
+    "referred_by": null,
+    "created_at": "2026-05-08T07:49:36.679Z",
+    "updated_at": "2026-05-08T07:53:03.019Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$BG0BPbFZUWEIIjKanfgXHj$mmAPGhysziXfhNeRQF/GX7AG03/zHJPtZb+SyqPXecs=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "John",
+    "last_name": "Doe",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-08T08:01:13.790Z",
+    "email": "deleted_22_user1@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "a70061f3-653a-44ba-8b2e-bcb7f5578a09",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "C5E12C5E",
+    "referred_by": null,
+    "created_at": "2026-05-08T08:01:13.791Z",
+    "updated_at": "2026-05-08T08:54:14.607Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ozdC9PjYFdr0P0INEJ4lbE$fmtsdqlDkviyGt8GS+fFq4Y+yZGVsQMl7KnZdB98qmM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-08T08:01:16.416Z",
+    "email": "deleted_23_user2@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "1357197b-fd19-4a60-a3a7-ce0eb32afd17",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "FE96094C",
+    "referred_by": null,
+    "created_at": "2026-05-08T08:01:16.418Z",
+    "updated_at": "2026-05-08T08:54:11.818Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$BEwHbXrhvG6db1pe0QQYAH$zQefEQeQjz1s2nYOh2S4SlgpJR8D37pv3NP7hFmYejI=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Bob",
+    "last_name": "Johnson",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-08T08:01:18.621Z",
+    "email": "deleted_24_user3@example.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "4dd76bce-9279-45dd-ae55-552fd3fad7c6",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "DBAEB9A5",
+    "referred_by": null,
+    "created_at": "2026-05-08T08:01:18.625Z",
+    "updated_at": "2026-05-08T08:54:08.596Z",
+    "last_login_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$mfnq2uGq7I3v2dowCVVx7s$JctzdbNcES1FTTKJGH8uxoEwW7fezFuJExdL3btfsx0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Melvinn",
+    "last_name": "maina",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T10:22:51.651Z",
+    "email": "melvin@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "-120.00",
+    "verification_token": "43876b13-caef-401b-bac1-33ae10997d69",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "E22B65EA",
+    "referred_by": null,
+    "created_at": "2026-05-08T10:22:53.371Z",
+    "updated_at": "2026-05-08T11:23:40.697Z",
+    "last_login_at": "2026-05-08T10:28:47.233Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$0seiIYYXoxyjjyhQTEMyv3$STjn+5od64OcG3BRTdmGP7k8XOqKto+dOeDFtMowEXM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Silven",
+    "last_name": "Nguyai",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T10:47:46.824Z",
+    "email": "silven@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "061934db-f51c-48fd-ab7d-485b5d7eb74f",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "109BBFB3",
+    "referred_by": null,
+    "created_at": "2026-05-08T10:47:48.490Z",
+    "updated_at": "2026-05-08T10:47:48.490Z",
+    "last_login_at": "2026-05-08T10:47:56.482Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ImHZOdbMg7Cj4Qj8eYWf5C$3ZhyBK+S/jnr/vWutvfe+Hta2gnhGiIn4VC0t2px2x0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Joyce",
+    "last_name": "gatheca",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T10:51:28.794Z",
+    "email": "joyce@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "794f8491-120d-4c83-8406-cbb058ce7fe9",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "B727BC82",
+    "referred_by": null,
+    "created_at": "2026-05-08T10:51:31.458Z",
+    "updated_at": "2026-05-08T10:51:31.458Z",
+    "last_login_at": "2026-05-08T10:51:37.885Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$mLZf6WtyMYf6XMgUZgvJ8H$zcPgCrG9oN7i/G/ntmB52xAFaSJusjyj3n6qewvME8c=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Natalie",
+    "last_name": "Migwi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T10:59:10.562Z",
+    "email": "nat@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "72540b95-229d-48bb-ab9b-297042a5d48b",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "4E392705",
+    "referred_by": null,
+    "created_at": "2026-05-08T10:59:12.249Z",
+    "updated_at": "2026-05-08T11:00:57.341Z",
+    "last_login_at": "2026-05-08T10:59:17.181Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$apDohYcboVttRKPfQcXG6a$iwhhKNR/wsVAZvUMKc9Dx5k/gdvJ6Dvl3Yh8cs+ZhI8=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "phylis",
+    "last_name": "njoki",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T11:03:30.551Z",
+    "email": "njoki@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "ab478a67-5d93-4067-8f31-82b47a5e9150",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "19CDF2A2",
+    "referred_by": null,
+    "created_at": "2026-05-08T11:03:32.251Z",
+    "updated_at": "2026-05-08T11:03:32.251Z",
+    "last_login_at": "2026-05-08T11:03:37.090Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$MlnZ4C5vzpZimF37agnRH6$AVjAJufNWJkYU/L6uzOC26DsoiCBRjPeaZE43XTBiUM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "chris",
+    "last_name": "jagelo",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T11:06:22.863Z",
+    "email": "jagelo@gmail.com",
+    "phone": null,
+    "avatar": "",
+    "location": null,
+    "occupation": null,
+    "company": null,
+    "website": null,
+    "bio": null,
+    "is_verified": true,
+    "balance": "0.00",
+    "verification_token": "64cdbd34-d925-493b-a671-e32050b5c380",
+    "reset_token": null,
+    "reset_token_created": null,
+    "referral_code": "F70529FA",
+    "referred_by": null,
+    "created_at": "2026-05-08T11:06:25.135Z",
+    "updated_at": "2026-05-08T11:06:25.136Z",
+    "last_login_at": "2026-05-08T11:06:31.807Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "theme": "light",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-02-10T22:46:04.224Z",
+    "updated_at": "2026-03-11T01:16:53.658Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "deleted_4_playboy@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-02-10T23:31:03.863Z",
+    "updated_at": "2026-02-10T23:31:03.863Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "playboyghana@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-02-10T23:32:08.153Z",
+    "updated_at": "2026-02-10T23:32:08.153Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "deleted_9_kimemia03@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-02-11T22:26:51.260Z",
+    "updated_at": "2026-02-11T22:26:51.260Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "deleted_10_peris@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-02-12T00:51:34.786Z",
+    "updated_at": "2026-02-12T00:51:34.786Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "deleted_11_makena@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-02-12T01:22:22.141Z",
+    "updated_at": "2026-02-12T01:22:22.141Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "melvin@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-05-08T10:22:53.387Z",
+    "updated_at": "2026-05-08T10:22:53.387Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "silven@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-05-08T10:47:48.511Z",
+    "updated_at": "2026-05-08T10:47:48.511Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "joyce@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-05-08T10:51:31.475Z",
+    "updated_at": "2026-05-08T10:51:31.475Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 14,
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-05-08T10:59:12.266Z",
+    "updated_at": "2026-05-08T10:59:12.266Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 15,
+  "fields": {
+    "user": [
+      "njoki@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-05-08T11:03:32.267Z",
+    "updated_at": "2026-05-08T11:03:32.267Z"
+  }
+},
+{
+  "model": "accounts.usersettings",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "jagelo@gmail.com"
+    ],
+    "theme": "dark",
+    "currency": "USD",
+    "language": "en",
+    "timezone": "UTC",
+    "email_notifications": true,
+    "push_notifications": true,
+    "price_alerts": true,
+    "transaction_alerts": true,
+    "referral_alerts": true,
+    "marketing_emails": false,
+    "two_factor_enabled": false,
+    "login_alerts": true,
+    "session_timeout": 30,
+    "profile_visible": true,
+    "portfolio_visible": false,
+    "activity_sharing": false,
+    "created_at": "2026-05-08T11:06:25.159Z",
+    "updated_at": "2026-05-08T11:06:25.159Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 74,
+  "fields": {
+    "user": [
+      "melvin@gmail.com"
+    ],
+    "transaction_type": "investment",
+    "payment_method": "mpesa",
+    "amount": "60.00",
+    "fee": "0.00",
+    "net_amount": "60.00",
+    "status": "completed",
+    "reference": "CAPITAL-PLAN-d7ccd582-7b81-4f69-ac56-0a0c18db302d",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Capital plan investment: Basic plan - 1 months",
+    "metadata": {},
+    "created_at": "2026-05-08T10:24:12.407Z",
+    "updated_at": "2026-05-08T10:40:54.705Z",
+    "completed_at": "2026-05-08T10:24:12.402Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 83,
+  "fields": {
+    "user": [
+      "silven@gmail.com"
+    ],
+    "transaction_type": "deposit",
+    "payment_method": "mpesa",
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "ADMIN-DEPOSIT-26-30-20260508104814",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Admin deposit for Silven Nguyai",
+    "metadata": {
+      "admin_credited_by": "admin@growfund.com",
+      "admin_credit_note": "",
+      "is_admin_deposit": true
+    },
+    "created_at": "2026-05-08T10:48:14.172Z",
+    "updated_at": "2026-05-08T10:49:32.791Z",
+    "completed_at": "2026-05-08T10:48:14.170Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 84,
+  "fields": {
+    "user": [
+      "silven@gmail.com"
+    ],
+    "transaction_type": "investment",
+    "payment_method": null,
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "CAPITAL-PLAN-3948db9a-3fb3-4533-a245-02cf2bf1c374",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Capital plan investment: Basic plan - 1 months",
+    "metadata": {},
+    "created_at": "2026-05-08T10:48:29.423Z",
+    "updated_at": "2026-05-08T10:48:29.424Z",
+    "completed_at": "2026-05-08T10:48:29.422Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 85,
+  "fields": {
+    "user": [
+      "joyce@gmail.com"
+    ],
+    "transaction_type": "deposit",
+    "payment_method": "mpesa",
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "MPESA-DEPOSIT-27-30-20260508105212",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Admin deposit for Joyce gatheca",
+    "metadata": {
+      "admin_credited_by": "admin@growfund.com",
+      "admin_credit_note": "",
+      "is_admin_deposit": true
+    },
+    "created_at": "2026-05-08T10:52:12.179Z",
+    "updated_at": "2026-05-08T11:13:28.157Z",
+    "completed_at": "2026-05-08T10:52:12.177Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 86,
+  "fields": {
+    "user": [
+      "joyce@gmail.com"
+    ],
+    "transaction_type": "investment",
+    "payment_method": null,
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "CAPITAL-PLAN-595458f5-7cb5-4e0d-903d-c83d8a6073e8",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Capital plan investment: Basic plan - 1 months",
+    "metadata": {},
+    "created_at": "2026-05-08T10:52:29.153Z",
+    "updated_at": "2026-05-08T10:52:29.153Z",
+    "completed_at": "2026-05-08T10:52:29.142Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 88,
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "transaction_type": "deposit",
+    "payment_method": "mpesa",
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "MPESA-DEPOSIT-2-30-20260508105304",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Admin deposit for Brian Kimemia",
+    "metadata": {
+      "admin_credited_by": "admin@growfund.com",
+      "admin_credit_note": "",
+      "is_admin_deposit": true
+    },
+    "created_at": "2026-05-08T10:53:04.014Z",
+    "updated_at": "2026-05-08T11:13:15.644Z",
+    "completed_at": "2026-05-08T10:53:04.012Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 92,
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "transaction_type": "deposit",
+    "payment_method": "mpesa",
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "MPESA-DEPOSIT-28-30-20260508110201",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Admin deposit for Natalie Migwi",
+    "metadata": {
+      "admin_credited_by": "admin@growfund.com",
+      "admin_credit_note": "",
+      "is_admin_deposit": true
+    },
+    "created_at": "2026-05-08T11:02:01.343Z",
+    "updated_at": "2026-05-08T11:15:58.464Z",
+    "completed_at": "2026-05-08T11:02:01.342Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 93,
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "transaction_type": "investment",
+    "payment_method": null,
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "CAPITAL-PLAN-a3203fdb-e976-497f-b2d1-6436c330d73c",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Capital plan investment: Basic plan - 6 months",
+    "metadata": {},
+    "created_at": "2026-05-08T11:02:31.856Z",
+    "updated_at": "2026-05-08T11:02:31.856Z",
+    "completed_at": "2026-05-08T11:02:31.853Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 94,
+  "fields": {
+    "user": [
+      "njoki@gmail.com"
+    ],
+    "transaction_type": "deposit",
+    "payment_method": "mpesa",
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "MPESA-DEPOSIT-29-30-20260508110351",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Admin deposit for phylis njoki",
+    "metadata": {
+      "admin_credited_by": "admin@growfund.com",
+      "admin_credit_note": "",
+      "is_admin_deposit": true
+    },
+    "created_at": "2026-05-08T11:03:51.348Z",
+    "updated_at": "2026-05-08T11:15:52.414Z",
+    "completed_at": "2026-05-08T11:03:51.346Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 95,
+  "fields": {
+    "user": [
+      "njoki@gmail.com"
+    ],
+    "transaction_type": "investment",
+    "payment_method": null,
+    "amount": "30.00",
+    "fee": "0.00",
+    "net_amount": "30.00",
+    "status": "completed",
+    "reference": "CAPITAL-PLAN-c119f677-eb5f-4cef-a9e2-a353a0149bac",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Capital plan investment: Basic plan - 1 months",
+    "metadata": {},
+    "created_at": "2026-05-08T11:04:28.205Z",
+    "updated_at": "2026-05-08T11:04:28.205Z",
+    "completed_at": "2026-05-08T11:04:28.204Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 96,
+  "fields": {
+    "user": [
+      "jagelo@gmail.com"
+    ],
+    "transaction_type": "deposit",
+    "payment_method": "mpesa",
+    "amount": "60.00",
+    "fee": "0.00",
+    "net_amount": "60.00",
+    "status": "completed",
+    "reference": "MPESA-DEPOSIT-30-60-20260508110642",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Admin deposit for chris jagelo",
+    "metadata": {
+      "admin_credited_by": "admin@growfund.com",
+      "admin_credit_note": "",
+      "is_admin_deposit": true
+    },
+    "created_at": "2026-05-08T11:06:42.936Z",
+    "updated_at": "2026-05-08T11:12:41.815Z",
+    "completed_at": "2026-05-08T11:06:42.933Z"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 97,
+  "fields": {
+    "user": [
+      "jagelo@gmail.com"
+    ],
+    "transaction_type": "investment",
+    "payment_method": null,
+    "amount": "60.00",
+    "fee": "0.00",
+    "net_amount": "60.00",
+    "status": "completed",
+    "reference": "CAPITAL-PLAN-a2a4f735-14af-4503-9bee-1351716f77a1",
+    "external_reference": null,
+    "phone_number": null,
+    "description": "Capital plan investment: Basic plan - 4 months",
+    "metadata": {},
+    "created_at": "2026-05-08T11:07:28.583Z",
+    "updated_at": "2026-05-08T11:07:28.583Z",
+    "completed_at": "2026-05-08T11:07:28.581Z"
+  }
+},
+{
+  "model": "investments.admincryptoprice",
+  "pk": 1,
+  "fields": {
+    "coin": "EXACOIN",
+    "name": "Exacoin",
+    "buy_price": "40.00",
+    "sell_price": "18.00",
+    "change_24h": "110.5263",
+    "change_7d": "0.0000",
+    "change_30d": "0.0000",
+    "is_active": true,
+    "last_updated": "2026-05-03T09:21:04.841Z",
+    "updated_by": [
+      "admin@growfund.com"
+    ],
+    "created_at": "2026-02-17T04:29:27.122Z"
+  }
+},
+{
+  "model": "investments.admincryptoprice",
+  "pk": 2,
+  "fields": {
+    "coin": "BTC",
+    "name": "Bitcoin",
+    "buy_price": "65000.00",
+    "sell_price": "63050.00",
+    "change_24h": "2.1000",
+    "change_7d": "-1.5000",
+    "change_30d": "8.7000",
+    "is_active": true,
+    "last_updated": "2026-04-23T19:08:52.964Z",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-17T04:29:27.319Z"
+  }
+},
+{
+  "model": "investments.admincryptoprice",
+  "pk": 3,
+  "fields": {
+    "coin": "ETH",
+    "name": "Ethereum",
+    "buy_price": "3200.00",
+    "sell_price": "3104.00",
+    "change_24h": "1.8000",
+    "change_7d": "3.2000",
+    "change_30d": "15.4000",
+    "is_active": true,
+    "last_updated": "2026-04-23T19:08:55.078Z",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-17T04:29:27.472Z"
+  }
+},
+{
+  "model": "investments.admincryptoprice",
+  "pk": 4,
+  "fields": {
+    "coin": "USDT",
+    "name": "Tether",
+    "buy_price": "1.00",
+    "sell_price": "0.97",
+    "change_24h": "0.0000",
+    "change_7d": "0.0000",
+    "change_30d": "0.0000",
+    "is_active": true,
+    "last_updated": "2026-04-23T19:08:56.841Z",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-17T04:29:27.621Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 1,
+  "fields": {
+    "coin": "ETH",
+    "buy_price": "3200.00",
+    "sell_price": "3104.00",
+    "change_24h": "1.8000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-19T02:08:55.549Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 2,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "62.00",
+    "sell_price": "9.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-19T02:29:26.848Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 3,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "62.00",
+    "sell_price": "61.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-19T05:11:05.890Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 4,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "62.00",
+    "sell_price": "1.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-20T20:17:21.812Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 5,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "60.00",
+    "sell_price": "8.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-20T20:23:08.619Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 6,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "60.00",
+    "sell_price": "8.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-20T21:36:16.640Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 7,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "60.00",
+    "sell_price": "59.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-20T21:51:09.626Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 8,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "60.00",
+    "sell_price": "5.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-20T22:37:44.439Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 9,
+  "fields": {
+    "coin": "ETH",
+    "buy_price": "3200.00",
+    "sell_price": "3104.00",
+    "change_24h": "1.8000",
+    "updated_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-22T21:28:54.253Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 10,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "60.00",
+    "sell_price": "9.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "admin@growfund.com"
+    ],
+    "created_at": "2026-05-02T08:10:57.028Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 11,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "62.50",
+    "sell_price": "6.00",
+    "change_24h": "0.0000",
+    "updated_by": [
+      "admin@growfund.com"
+    ],
+    "created_at": "2026-05-02T08:11:21.944Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 12,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "19.00",
+    "sell_price": "18.00",
+    "change_24h": "-69.3548",
+    "updated_by": [
+      "admin@growfund.com"
+    ],
+    "created_at": "2026-05-03T08:37:01.419Z"
+  }
+},
+{
+  "model": "investments.cryptopricehistory",
+  "pk": 13,
+  "fields": {
+    "coin": "EXACOIN",
+    "buy_price": "40.00",
+    "sell_price": "18.00",
+    "change_24h": "110.5263",
+    "updated_by": [
+      "admin@growfund.com"
+    ],
+    "created_at": "2026-05-03T09:21:04.892Z"
+  }
+},
+{
+  "model": "investments.capitalinvestmentplan",
+  "pk": "3948db9a-3fb3-4533-a245-02cf2bf1c374",
+  "fields": {
+    "user": [
+      "silven@gmail.com"
+    ],
+    "plan_type": "basic",
+    "status": "active",
+    "initial_amount": "30.00",
+    "period_months": 1,
+    "growth_rate": "20.00",
+    "total_return": "6.00",
+    "final_amount": "36.00",
+    "monthly_growth": [
+      {
+        "month": 1,
+        "starting_amount": 30.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 6.0,
+        "ending_amount": 36.0
+      }
+    ],
+    "created_at": "2026-05-08T10:48:29.399Z",
+    "start_date": "2026-05-08T10:48:29.396Z",
+    "end_date": "2026-06-08T10:48:29.396Z",
+    "completed_at": null,
+    "updated_at": "2026-05-08T10:48:29.399Z"
+  }
+},
+{
+  "model": "investments.capitalinvestmentplan",
+  "pk": "595458f5-7cb5-4e0d-903d-c83d8a6073e8",
+  "fields": {
+    "user": [
+      "joyce@gmail.com"
+    ],
+    "plan_type": "basic",
+    "status": "active",
+    "initial_amount": "30.00",
+    "period_months": 1,
+    "growth_rate": "20.00",
+    "total_return": "6.00",
+    "final_amount": "36.00",
+    "monthly_growth": [
+      {
+        "month": 1,
+        "starting_amount": 30.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 6.0,
+        "ending_amount": 36.0
+      }
+    ],
+    "created_at": "2026-05-08T10:52:29.139Z",
+    "start_date": "2026-05-08T10:52:29.137Z",
+    "end_date": "2026-06-08T10:52:29.137Z",
+    "completed_at": null,
+    "updated_at": "2026-05-08T10:52:29.139Z"
+  }
+},
+{
+  "model": "investments.capitalinvestmentplan",
+  "pk": "a2a4f735-14af-4503-9bee-1351716f77a1",
+  "fields": {
+    "user": [
+      "jagelo@gmail.com"
+    ],
+    "plan_type": "basic",
+    "status": "active",
+    "initial_amount": "60.00",
+    "period_months": 4,
+    "growth_rate": "20.00",
+    "total_return": "64.42",
+    "final_amount": "124.42",
+    "monthly_growth": [
+      {
+        "month": 1,
+        "starting_amount": 60.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 12.0,
+        "ending_amount": 72.0
+      },
+      {
+        "month": 2,
+        "starting_amount": 72.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 14.4,
+        "ending_amount": 86.4
+      },
+      {
+        "month": 3,
+        "starting_amount": 86.4,
+        "growth_rate": 20.0,
+        "monthly_gain": 17.28,
+        "ending_amount": 103.68
+      },
+      {
+        "month": 4,
+        "starting_amount": 103.68,
+        "growth_rate": 20.0,
+        "monthly_gain": 20.74,
+        "ending_amount": 124.42
+      }
+    ],
+    "created_at": "2026-05-08T11:07:28.577Z",
+    "start_date": "2026-05-08T11:07:28.575Z",
+    "end_date": "2026-09-08T11:07:28.575Z",
+    "completed_at": null,
+    "updated_at": "2026-05-08T11:07:28.577Z"
+  }
+},
+{
+  "model": "investments.capitalinvestmentplan",
+  "pk": "a3203fdb-e976-497f-b2d1-6436c330d73c",
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "plan_type": "basic",
+    "status": "active",
+    "initial_amount": "30.00",
+    "period_months": 6,
+    "growth_rate": "20.00",
+    "total_return": "59.58",
+    "final_amount": "89.58",
+    "monthly_growth": [
+      {
+        "month": 1,
+        "starting_amount": 30.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 6.0,
+        "ending_amount": 36.0
+      },
+      {
+        "month": 2,
+        "starting_amount": 36.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 7.2,
+        "ending_amount": 43.2
+      },
+      {
+        "month": 3,
+        "starting_amount": 43.2,
+        "growth_rate": 20.0,
+        "monthly_gain": 8.64,
+        "ending_amount": 51.84
+      },
+      {
+        "month": 4,
+        "starting_amount": 51.84,
+        "growth_rate": 20.0,
+        "monthly_gain": 10.37,
+        "ending_amount": 62.21
+      },
+      {
+        "month": 5,
+        "starting_amount": 62.21,
+        "growth_rate": 20.0,
+        "monthly_gain": 12.44,
+        "ending_amount": 74.65
+      },
+      {
+        "month": 6,
+        "starting_amount": 74.65,
+        "growth_rate": 20.0,
+        "monthly_gain": 14.93,
+        "ending_amount": 89.58
+      }
+    ],
+    "created_at": "2026-05-08T11:02:31.846Z",
+    "start_date": "2026-05-08T11:02:31.844Z",
+    "end_date": "2026-11-08T11:02:31.844Z",
+    "completed_at": null,
+    "updated_at": "2026-05-08T11:02:31.846Z"
+  }
+},
+{
+  "model": "investments.capitalinvestmentplan",
+  "pk": "c119f677-eb5f-4cef-a9e2-a353a0149bac",
+  "fields": {
+    "user": [
+      "njoki@gmail.com"
+    ],
+    "plan_type": "basic",
+    "status": "active",
+    "initial_amount": "30.00",
+    "period_months": 1,
+    "growth_rate": "20.00",
+    "total_return": "6.00",
+    "final_amount": "36.00",
+    "monthly_growth": [
+      {
+        "month": 1,
+        "starting_amount": 30.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 6.0,
+        "ending_amount": 36.0
+      }
+    ],
+    "created_at": "2026-05-08T11:04:28.201Z",
+    "start_date": "2026-05-08T11:04:28.199Z",
+    "end_date": "2026-06-08T11:04:28.199Z",
+    "completed_at": null,
+    "updated_at": "2026-05-08T11:04:28.201Z"
+  }
+},
+{
+  "model": "investments.capitalinvestmentplan",
+  "pk": "d7ccd582-7b81-4f69-ac56-0a0c18db302d",
+  "fields": {
+    "user": [
+      "melvin@gmail.com"
+    ],
+    "plan_type": "basic",
+    "status": "active",
+    "initial_amount": "60.00",
+    "period_months": 1,
+    "growth_rate": "20.00",
+    "total_return": "12.00",
+    "final_amount": "72.00",
+    "monthly_growth": [
+      {
+        "month": 1,
+        "starting_amount": 60.0,
+        "growth_rate": 20.0,
+        "monthly_gain": 12.0,
+        "ending_amount": 72.0
+      }
+    ],
+    "created_at": "2026-05-08T10:24:12.399Z",
+    "start_date": "2026-05-08T10:24:12.388Z",
+    "end_date": "2026-06-08T10:24:12.388Z",
+    "completed_at": null,
+    "updated_at": "2026-05-08T10:24:12.399Z"
+  }
+},
+{
+  "model": "investments.trade",
+  "pk": "468f0c3e-467a-48f6-a40e-aec75c606cae",
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "asset": "EXACOIN",
+    "trade_type": "buy",
+    "status": "active",
+    "entry_price": "40.00",
+    "current_price": "40.00",
+    "exit_price": null,
+    "quantity": "0.7500",
+    "stop_loss": null,
+    "take_profit": null,
+    "timeframe": null,
+    "expires_at": null,
+    "profit_loss": "0.00",
+    "profit_loss_percentage": "0.00",
+    "created_at": "2026-05-08T10:45:38.860Z",
+    "closed_at": null,
+    "updated_at": "2026-05-08T10:46:42.190Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 117,
+  "fields": {
+    "user": [
+      "admin@growfund.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $25.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:16:17.866Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 120,
+  "fields": {
+    "user": [
+      "admin@growfund.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $5.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:27:54.376Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 122,
+  "fields": {
+    "user": [
+      "admin@growfund.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $5.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:42:11.776Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 124,
+  "fields": {
+    "user": [
+      "admin@growfund.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:43:42.551Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 125,
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": true,
+    "created_at": "2026-05-08T10:44:26.241Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 126,
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "title": "Crypto Purchase Completed",
+    "message": "Successfully purchased 0.75000000 EXACOIN for $30",
+    "type": "success",
+    "read": true,
+    "created_at": "2026-05-08T10:45:38.879Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 129,
+  "fields": {
+    "user": [
+      "joyce@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:52:12.189Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 130,
+  "fields": {
+    "user": [
+      "joyce@gmail.com"
+    ],
+    "title": "Investment Created",
+    "message": "Successfully invested $30 in Basic capital plan",
+    "type": "success",
+    "read": false,
+    "created_at": "2026-05-08T10:52:29.158Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 131,
+  "fields": {
+    "user": [
+      "admin@growfund.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:52:51.053Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 132,
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:53:04.027Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 133,
+  "fields": {
+    "user": [
+      "melvin@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:53:10.265Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 134,
+  "fields": {
+    "user": [
+      "melvin@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T10:53:23.951Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 135,
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $150.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T11:00:09.741Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 136,
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T11:02:01.354Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 137,
+  "fields": {
+    "user": [
+      "nat@gmail.com"
+    ],
+    "title": "Investment Created",
+    "message": "Successfully invested $30 in Basic capital plan",
+    "type": "success",
+    "read": false,
+    "created_at": "2026-05-08T11:02:31.861Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 138,
+  "fields": {
+    "user": [
+      "njoki@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $30.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T11:03:51.359Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 139,
+  "fields": {
+    "user": [
+      "njoki@gmail.com"
+    ],
+    "title": "Investment Created",
+    "message": "Successfully invested $30 in Basic capital plan",
+    "type": "success",
+    "read": false,
+    "created_at": "2026-05-08T11:04:28.213Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 140,
+  "fields": {
+    "user": [
+      "jagelo@gmail.com"
+    ],
+    "title": "Balance Updated",
+    "message": "Your account has been credited $60.",
+    "type": "info",
+    "read": false,
+    "created_at": "2026-05-08T11:06:42.945Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 141,
+  "fields": {
+    "user": [
+      "jagelo@gmail.com"
+    ],
+    "title": "Investment Created",
+    "message": "Successfully invested $60 in Basic capital plan",
+    "type": "success",
+    "read": false,
+    "created_at": "2026-05-08T11:07:28.594Z"
+  }
+},
+{
+  "model": "notifications.adminnotification",
+  "pk": 6,
+  "fields": {
+    "title": "ALERT!! EXA COIN JUST PUMPED",
+    "message": "BRAG EXA NOW!!",
+    "type": "info",
+    "priority": "high",
+    "target": "all",
+    "target_users": "",
+    "sent_count": 8,
+    "status": "sent",
+    "created_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "created_at": "2026-02-20T20:19:25.202Z"
+  }
+},
+{
+  "model": "settings_app.platformsettings",
+  "pk": 1,
+  "fields": {
+    "platform_name": "GrowFund",
+    "platform_email": "support@growfund.com",
+    "min_deposit": "30.00",
+    "max_deposit": "100000.00",
+    "min_withdrawal": "50.00",
+    "max_withdrawal": "50000.00",
+    "deposit_fee": "0.00",
+    "withdrawal_fee": "2.00",
+    "auto_approve_deposits": true,
+    "auto_approve_withdrawals": true,
+    "auto_approve_deposit_limit": "1000.00",
+    "auto_approve_withdrawal_limit": "500.00",
+    "email_notifications": true,
+    "sms_notifications": false,
+    "referral_bonus": "5.00",
+    "min_capital_plan_investment": "30.00",
+    "min_real_estate_investment": "30.00",
+    "min_crypto_investment": "30.00",
+    "capital_basic_min": "30.00",
+    "capital_standard_min": "50.00",
+    "capital_advance_min": "100.00",
+    "real_estate_starter_min": "30.00",
+    "real_estate_premium_min": "50.00",
+    "real_estate_luxury_min": "100.00",
+    "updated_at": "2026-05-03T10:47:58.859Z",
+    "updated_by": [
+      "admin@growfund.com"
+    ],
+    "created_at": "2026-02-22T21:37:19.707Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 1,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T21:37:19.707479Z",
+    "new_value": "2026-02-22T21:40:22.348494Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T21:40:22.407Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 2,
+  "fields": {
+    "setting_name": "updatedBy",
+    "old_value": "None",
+    "new_value": "admin001@gmail.com",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T21:40:22.448Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 3,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T21:40:22.348494Z",
+    "new_value": "2026-02-22T22:04:24.765469Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:04:24.790Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 4,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T22:11:48.955352Z",
+    "new_value": "2026-02-22T22:19:32.411716Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:19:32.416Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 5,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T22:19:32.411716Z",
+    "new_value": "2026-02-22T22:20:54.084907Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:20:54.091Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 6,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T22:24:45.905849Z",
+    "new_value": "2026-02-22T22:30:28.478065Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:30:28.502Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 7,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T22:30:28.478065Z",
+    "new_value": "2026-02-22T22:31:22.294267Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:31:22.299Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 8,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T22:31:22.294267Z",
+    "new_value": "2026-02-22T22:31:49.638379Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:31:49.642Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 9,
+  "fields": {
+    "setting_name": "realEstateLuxuryMin",
+    "old_value": "20000.00",
+    "new_value": "55000.00",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:43:04.438Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 10,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T22:40:25.586082Z",
+    "new_value": "2026-02-22T22:43:04.433081Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T22:43:04.464Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 11,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T23:35:35.870238Z",
+    "new_value": "2026-02-22T23:48:58.703839Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T23:48:58.836Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 12,
+  "fields": {
+    "setting_name": "referralBonus",
+    "old_value": "50.00",
+    "new_value": "5.00",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T23:49:11.079Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 13,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-02-22T23:48:58.703839Z",
+    "new_value": "2026-02-22T23:49:11.074816Z",
+    "changed_by": [
+      "deleted_8_admin001@gmail.com"
+    ],
+    "changed_at": "2026-02-22T23:49:11.080Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 14,
+  "fields": {
+    "setting_name": "realEstateStarterMin",
+    "old_value": "1000.00",
+    "new_value": "100.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-03-11T00:15:47.703Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 15,
+  "fields": {
+    "setting_name": "realEstatePremiumMin",
+    "old_value": "5000.00",
+    "new_value": "200.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-03-11T00:15:47.708Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 16,
+  "fields": {
+    "setting_name": "realEstateLuxuryMin",
+    "old_value": "55000.00",
+    "new_value": "300.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-03-11T00:15:47.710Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 17,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-03-11T00:06:06.974701Z",
+    "new_value": "2026-03-11T00:15:47.692820Z",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-03-11T00:15:47.710Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 18,
+  "fields": {
+    "setting_name": "updatedBy",
+    "old_value": "admin001@gmail.com",
+    "new_value": "admin@growfund.com",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-03-11T00:15:47.712Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 19,
+  "fields": {
+    "setting_name": "minDeposit",
+    "old_value": "100.00",
+    "new_value": "30.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:12.595Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 20,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-05-02T21:58:45.180566Z",
+    "new_value": "2026-05-03T10:47:12.573058Z",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:12.604Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 21,
+  "fields": {
+    "setting_name": "capitalStandardMin",
+    "old_value": "500.00",
+    "new_value": "50.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.875Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 22,
+  "fields": {
+    "setting_name": "capitalAdvanceMin",
+    "old_value": "2000.00",
+    "new_value": "100.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.878Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 23,
+  "fields": {
+    "setting_name": "realEstatePremiumMin",
+    "old_value": "5000.00",
+    "new_value": "50.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.880Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 24,
+  "fields": {
+    "setting_name": "realEstateLuxuryMin",
+    "old_value": "20000.00",
+    "new_value": "100.00",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.882Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 25,
+  "fields": {
+    "setting_name": "autoApproveDeposits",
+    "old_value": "False",
+    "new_value": "True",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.906Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 26,
+  "fields": {
+    "setting_name": "autoApproveWithdrawals",
+    "old_value": "False",
+    "new_value": "True",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.910Z"
+  }
+},
+{
+  "model": "settings_app.settingshistory",
+  "pk": 27,
+  "fields": {
+    "setting_name": "updatedAt",
+    "old_value": "2026-05-03T10:47:12.573058Z",
+    "new_value": "2026-05-03T10:47:58.859939Z",
+    "changed_by": [
+      "admin@growfund.com"
+    ],
+    "changed_at": "2026-05-03T10:47:58.919Z"
+  }
+},
+{
+  "model": "demo.demoaccount",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "migwibrian316@gmail.com"
+    ],
+    "balance": "10000.00",
+    "is_active": true,
+    "created_at": "2026-05-08T10:22:08.171Z",
+    "updated_at": "2026-05-08T10:22:08.171Z"
+  }
+},
+{
+  "model": "demo.demotransaction",
+  "pk": 27,
+  "fields": {
+    "demo_account": 7,
+    "transaction_type": "deposit",
+    "amount": "10000.00",
+    "asset": null,
+    "quantity": null,
+    "price": null,
+    "status": "completed",
+    "description": "Initial demo balance",
+    "created_at": "2026-05-08T10:22:08.272Z"
+  }
+}
+]
