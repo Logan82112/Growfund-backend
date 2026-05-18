@@ -38,6 +38,27 @@ def root_view(request):
     })
 
 
+@api_view(['GET'])
+@permission_classes([])
+def api_root(request):
+    """API root endpoint - same as root but under /api/"""
+    return Response({
+        'message': 'GrowFund API',
+        'version': '1.0',
+        'status': 'running',
+        'endpoints': {
+            'health': '/api/health/',
+            'admin': '/admin/',
+            'auth': '/api/auth/',
+            'investments': '/api/investments/',
+            'transactions': '/api/transactions/',
+            'demo': '/api/demo/',
+            'binary_trading': '/api/binary/',
+            'settings': '/api/settings/',
+        }
+    })
+
+
 
 def run_migrations(request):
     """Admin-only: run pending migrations on the live server."""
@@ -101,6 +122,8 @@ def db_check(request):
 
 urlpatterns = [
     path('', root_view, name='root'),  # Root endpoint
+    path('api/', api_root, name='api-root'),  # API root endpoint
+    path('Api/', api_root, name='api-root-capital'),  # Handle capital A (common mistake)
     path('admin/', admin.site.urls),
     path('api/auth/', include('accounts.urls')),
     path('api/investments/', include('investments.urls')),
