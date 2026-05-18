@@ -1,17 +1,22 @@
 services:
   - type: web
     name: growfund-backend
-    env: python
-    rootDir: backend-growfund
-    buildCommand: bash build.sh
-    startCommand: gunicorn growfund.wsgi:application --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 120
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
-      - key: DJANGO_SETTINGS_MODULE
-        value: growfund.settings
-      - key: DATABASE_URL
-        fromDatabase:
-          name: growfund-db
-          property: connectionString
+    env: docker
+    dockerfilePath: ./Dockerfile
+    region: oregon
     plan: free
+    branch: main
+    healthCheckPath: /api/health/
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: SECRET_KEY
+        sync: false
+      - key: DEBUG
+        value: False
+      - key: ALLOWED_HOSTS
+        value: "*"
+      - key: FRONTEND_URL
+        value: https://growfundapp.us
+      - key: BACKEND_URL
+        sync: false
