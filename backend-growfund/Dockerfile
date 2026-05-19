@@ -27,11 +27,21 @@ COPY . .
 # Collect static files (no database access needed here)
 RUN python manage.py collectstatic --noinput --clear || true
 
+# Create entrypoint script
+RUN echo '#!/bin/bash\n\
+set -e\n\
+echo "🔄 Running database migrations..."\n\
+python manage.py migrate --noinput\n\
+echo "⚙️ Setting up platform settings..."\n\
+python manage.py setup_platform_settings || true\n\
+echo "💰 Setting up crypto prices..."\n\
+python manage.py setup_crypto_prices || true\n\
+echo "🚀 Starting Gunicorn server..."\n\
+exec gunicorn growfund.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 4 --timeout 120\n\
+' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
+
 # Expose port (Render will override with $PORT)
 EXPOSE 8000
 
-# Run migrations and start server
-CMD python manage.py migrate --noinput && \
-    python manage.py setup_platform_settings || true && \
-    python manage.py setup_crypto_prices || true && \
-    gunicorn growfund.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 4 --timeout 120
+# Run entrypoint script
+CMD ["/app/entrypoint.sh"]
