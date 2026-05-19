@@ -60,6 +60,45 @@ def api_root(request):
 
 
 
+@api_view(['GET', 'POST'])
+@permission_classes([])
+def run_migrations_public(request):
+    """Public endpoint to run migrations - REMOVE AFTER USE"""
+    try:
+        from django.core.management import call_command
+        from io import StringIO
+        
+        output = StringIO()
+        
+        # Run migrations
+        call_command('migrate', '--noinput', stdout=output, stderr=output)
+        migration_output = output.getvalue()
+        
+        # Setup platform settings
+        try:
+            call_command('setup_platform_settings', stdout=output, stderr=output)
+        except Exception as e:
+            pass
+        
+        # Setup crypto prices
+        try:
+            call_command('setup_crypto_prices', stdout=output, stderr=output)
+        except Exception as e:
+            pass
+        
+        return Response({
+            'success': True,
+            'message': 'Migrations completed successfully',
+            'output': migration_output
+        })
+    except Exception as e:
+        return Response({
+            'success': False,
+            'error': str(e),
+            'traceback': traceback.format_exc()
+        }, status=500)
+
+
 def run_migrations(request):
     """Admin-only: run pending migrations on the live server."""
     if not (request.user.is_staff or request.user.is_superuser):
@@ -124,6 +163,7 @@ urlpatterns = [
     path('', root_view, name='root'),  # Root endpoint
     path('api/', api_root, name='api-root'),  # API root endpoint
     path('Api/', api_root, name='api-root-capital'),  # Handle capital A (common mistake)
+    path('setup-database/', run_migrations_public, name='setup-database'),  # PUBLIC - Run migrations
     path('admin/', admin.site.urls),
     path('api/auth/', include('accounts.urls')),
     path('api/investments/', include('investments.urls')),
