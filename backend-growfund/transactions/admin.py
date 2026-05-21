@@ -56,6 +56,13 @@ class TransactionAdmin(admin.ModelAdmin):
         # For deposit transactions, allow editing dates but keep other fields readonly
         if obj and obj.transaction_type == 'deposit':
             readonly.extend(['user', 'transaction_type', 'payment_method'])
+            # Note: created_at and completed_at are NOT added to readonly, so they're editable
+            return readonly
+        
+        # For investment transactions, also allow date editing
+        if obj and obj.transaction_type == 'investment':
+            readonly.extend(['user', 'transaction_type', 'payment_method'])
+            # Note: created_at and completed_at are NOT added to readonly, so they're editable
             return readonly
         
         # For other transactions, keep more fields readonly including created_at
