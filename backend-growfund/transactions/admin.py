@@ -9,7 +9,7 @@ class TransactionAdmin(admin.ModelAdmin):
     list_display = ['reference', 'user', 'transaction_type', 'amount', 'status', 'created_at', 'is_admin_transaction']
     list_filter = ['transaction_type', 'status', 'payment_method', 'created_at']
     search_fields = ['reference', 'user__email', 'user__first_name', 'user__last_name', 'phone_number', 'external_reference', 'description']
-    readonly_fields = ['reference', 'created_at', 'updated_at']
+    readonly_fields = ['reference', 'updated_at']
     ordering = ['-created_at']
     
     fieldsets = (
@@ -28,7 +28,8 @@ class TransactionAdmin(admin.ModelAdmin):
             'description': 'Description is editable and will be shown in user transaction history.'
         }),
         ('Timestamps', {
-            'fields': ('created_at', 'updated_at', 'completed_at')
+            'fields': ('created_at', 'updated_at', 'completed_at'),
+            'description': 'Created date and completed date are editable for admin users. Changes will be reflected in transaction history.'
         }),
     )
     
@@ -44,28 +45,36 @@ class TransactionAdmin(admin.ModelAdmin):
     is_admin_transaction.short_description = 'Admin Transaction'
     
     def get_readonly_fields(self, request, obj=None):
-        """Make certain fields editable for admin transactions"""
-        readonly = list(self.readonly_fields)
+        """Make certain fields editable for admin transactions and allow date editing"""
+        readonly = ['reference', 'updated_at']  # Always readonly
         
         # If it's an existing admin credit/debit transaction, allow editing more fields
         if obj and obj.transaction_type in ['admin_credit', 'admin_debit']:
-            # Only keep reference, created_at, and updated_at as readonly
-            return ['reference', 'created_at', 'updated_at']
+            # Only keep reference and updated_at as readonly for admin transactions
+            return readonly
         
-        # For other transactions, keep more fields readonly
-        if obj:
+        # For deposit transactions, allow editing dates but keep other fields readonly
+        if obj and obj.transaction_type == 'deposit':
             readonly.extend(['user', 'transaction_type', 'payment_method'])
+            return readonly
+        
+        # For other transactions, keep more fields readonly including created_at
+        if obj:
+            readonly.extend(['user', 'transaction_type', 'payment_method', 'created_at'])
         
         return readonly
     
     def save_model(self, request, obj, form, change):
-        """Handle saving with balance adjustments if amounts changed"""
-        if change and obj.transaction_type in ['admin_credit', 'admin_debit']:
+        """Handle saving with balance adjustments if amounts changed and track date edits"""
+        if change:
             # Get the old transaction to compare
             old_obj = Transaction.objects.get(pk=obj.pk)
             
-            # If amount changed, adjust user balance
-            if old_obj.amount != obj.amount:
+            # Track what was changed
+            changes = []
+            
+            # If amount changed for admin transactions, adjust user balance
+            if obj.transaction_type in ['admin_credit', 'admin_debit'] and old_obj.amount != obj.amount:
                 amount_diff = obj.amount - old_obj.amount
                 
                 if obj.transaction_type == 'admin_credit':
@@ -74,12 +83,26 @@ class TransactionAdmin(admin.ModelAdmin):
                     obj.user.balance -= amount_diff
                 
                 obj.user.save(update_fields=['balance'])
-                
-                # Update description to note the edit
-                if not obj.description or 'Edited by admin' not in obj.description:
-                    obj.description = f"{obj.description or ''}\nEdited by admin {request.user.email} on {timezone.now().strftime('%Y-%m-%d %H:%M')}"
+                changes.append(f"Amount changed from {old_obj.amount} to {obj.amount}")
+            
+            # Track date changes
+            if old_obj.created_at != obj.created_at:
+                changes.append(f"Created date changed from {old_obj.created_at.strftime('%Y-%m-%d %H:%M')} to {obj.created_at.strftime('%Y-%m-%d %H:%M')}")
+            
+            if old_obj.completed_at != obj.completed_at:
+                old_completed = old_obj.completed_at.strftime('%Y-%m-%d %H:%M') if old_obj.completed_at else 'None'
+                new_completed = obj.completed_at.strftime('%Y-%m-%d %H:%M') if obj.completed_at else 'None'
+                changes.append(f"Completed date changed from {old_completed} to {new_completed}")
+            
+            # Update description to note the edits
+            if changes:
+                edit_note = f"\nEdited by admin {request.user.email} on {timezone.now().strftime('%Y-%m-%d %H:%M')}: {'; '.join(changes)}"
+                if obj.description:
+                    obj.description += edit_note
+                else:
+                    obj.description = edit_note.strip()
         
-        # Update completed_at if status changed to completed
+        # Update completed_at if status changed to completed and no completed_at is set
         if obj.status == 'completed' and not obj.completed_at:
             obj.completed_at = timezone.now()
         
