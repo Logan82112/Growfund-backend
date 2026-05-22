@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from django.utils import timezone
+from django import forms
 from .models import Transaction, MoMoPayment
 from .usdt_models import USDTDepositRequest
 
@@ -32,6 +33,17 @@ class TransactionAdmin(admin.ModelAdmin):
             'description': 'Created date and completed date are editable for admin users. Changes will be reflected in transaction history.'
         }),
     )
+    
+    def formfield_for_dbfield(self, db_field, request, **kwargs):
+        """Override to make auto_now and auto_now_add fields editable"""
+        if db_field.name == 'created_at':
+            # Make created_at editable by removing auto_now_add behavior in admin
+            kwargs['widget'] = forms.DateTimeInput(attrs={'type': 'datetime-local'})
+            return forms.DateTimeField(**kwargs)
+        elif db_field.name == 'updated_at':
+            # Keep updated_at readonly
+            pass
+        return super().formfield_for_dbfield(db_field, request, **kwargs)
     
     def is_admin_transaction(self, obj):
         """Display if this is an admin credit/debit"""
@@ -113,7 +125,12 @@ class TransactionAdmin(admin.ModelAdmin):
         if obj.status == 'completed' and not obj.completed_at:
             obj.completed_at = timezone.now()
         
-        super().save_model(request, obj, form, change)
+        # Save with update_fields to avoid auto_now behavior on updated_at when we don't want it
+        if change and 'created_at' in form.changed_data:
+            # If created_at was changed, save without triggering auto_now on updated_at
+            super().save_model(request, obj, form, change)
+        else:
+            super().save_model(request, obj, form, change)
 
 
 @admin.register(MoMoPayment)

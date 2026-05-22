@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django import forms
 from .models import Trade, TradeHistory, CapitalInvestmentPlan
 
 
@@ -28,6 +29,17 @@ class TradeAdmin(admin.ModelAdmin):
             'description': 'Created date and closed date are editable for admin users. Changes will be tracked in the system.'
         }),
     )
+    
+    def formfield_for_dbfield(self, db_field, request, **kwargs):
+        """Override to make auto_now and auto_now_add fields editable"""
+        if db_field.name == 'created_at':
+            # Make created_at editable by removing auto_now_add behavior in admin
+            kwargs['widget'] = forms.DateTimeInput(attrs={'type': 'datetime-local'})
+            return forms.DateTimeField(**kwargs)
+        elif db_field.name == 'updated_at':
+            # Keep updated_at readonly
+            pass
+        return super().formfield_for_dbfield(db_field, request, **kwargs)
     
     def get_queryset(self, request):
         """Optimize queryset with select_related"""
@@ -123,6 +135,17 @@ class CapitalInvestmentPlanAdmin(admin.ModelAdmin):
             'description': 'All dates are editable for admin users. Changes will be tracked in the system.'
         }),
     )
+    
+    def formfield_for_dbfield(self, db_field, request, **kwargs):
+        """Override to make auto_now and auto_now_add fields editable"""
+        if db_field.name == 'created_at':
+            # Make created_at editable by removing auto_now_add behavior in admin
+            kwargs['widget'] = forms.DateTimeInput(attrs={'type': 'datetime-local'})
+            return forms.DateTimeField(**kwargs)
+        elif db_field.name == 'updated_at':
+            # Keep updated_at readonly
+            pass
+        return super().formfield_for_dbfield(db_field, request, **kwargs)
     
     def get_queryset(self, request):
         """Optimize queryset with select_related"""
